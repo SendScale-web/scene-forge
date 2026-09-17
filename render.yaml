@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: sceneforge-render-service
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
